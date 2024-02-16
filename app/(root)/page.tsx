@@ -1,12 +1,11 @@
 import { Button } from "@/components/ui/button";
-import { icons } from "lucide-react";
+
+import { UserButton } from "@clerk/nextjs";
 
 export default function Home() {
   return (
     <div>
-      <Button size="default" variant="destructive">
-        Hello
-      </Button>
+      <UserButton afterSignOutUrl="/sign-in" />
     </div>
   );
 }
