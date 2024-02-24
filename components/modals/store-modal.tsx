@@ -12,7 +12,6 @@ import {
 
 import * as z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { render } from "react-dom";
 import { Input } from "../ui/input";
 import { Button } from "../ui/button";
 
